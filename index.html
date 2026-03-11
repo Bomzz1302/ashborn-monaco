@@ -269,7 +269,7 @@
 					return obj;
 				});
 			}
-
+	
 			monaco.editor.defineTheme('net-theme-light', {
 				base: 'vs', inherit: true,
 				rules: [
@@ -295,29 +295,31 @@
 			monaco.editor.defineTheme('PDark', {
 				base: 'vs-dark', inherit: true,
 				rules: [
-					{ token: '', foreground: '#C3CCDB' },
-					{ token: 'keyword', foreground: '#BB9AF7' },
-					{ token: 'keyword.local', foreground: '#997BD6', fontStyle: 'italic' },
-					{ token: 'keyword.operator', foreground: '#89DDFF' },
-					{ token: 'operator', foreground: '#89DDFF' },
-					{ token: 'entity.name.function', foreground: '#7AA2F7' },
-					{ token: 'global', foreground: '#7AA2F7' },
-					{ token: 'storage.type', foreground: '#BB9AF7' },
-					{ token: 'comment', foreground: '#666666', fontStyle: 'italic' },
-					{ token: 'delimiter.longstring', foreground: '#89DDFF' },
-					{ token: 'delimiter.bracket', foreground: '#a6afbd' },
-					{ token: 'delimiter.parenthesis', foreground: '#a6afbd' },
-					{ token: 'delimiter', foreground: '#a6afbd' },
-					{ token: 'string', foreground: '#9ECE6A' },
-					{ token: 'string.escape', foreground: '#89DDFF' },
-					{ token: 'constant.language', foreground: '#FF9E64' },
-					{ token: 'number', foreground: '#FF9E64' },
-					{ token: 'support.function', foreground: '#0DB9D7' },
-					{ token: 'support.function.library', foreground: '#0DB9D7' },
-					{ token: 'support.type', foreground: '#5ab6d6' },
+					{ token: '', foreground: '#D4D4D4' },
+					{ token: 'keyword', foreground: '#569CD6', fontStyle: 'bold' },
+					{ token: 'keyword.local', foreground: '#569CD6', fontStyle: 'bold' },
+					{ token: 'keyword.operator', foreground: '#569CD6' },
+					{ token: 'keyword.function', foreground: '#C586C0', fontStyle: 'bold' },
+					{ token: 'operator', foreground: '#D4D4D4' },
+					{ token: 'entity.name.function', foreground: '#DCDCAA' },
+					{ token: 'global', foreground: '#DCDCAA' },
+					{ token: 'storage.type', foreground: '#C586C0' },
+					{ token: 'comment', foreground: '#6A9955', fontStyle: 'italic' },
+					{ token: 'delimiter.longstring', foreground: '#CE9178' },
+					{ token: 'delimiter.bracket', foreground: '#FFD700' },
+					{ token: 'delimiter.parenthesis', foreground: '#DA70D6' },
+					{ token: 'delimiter.array', foreground: '#FFD700' },
+					{ token: 'delimiter', foreground: '#D4D4D4' },
+					{ token: 'string', foreground: '#CE9178' },
+					{ token: 'string.escape', foreground: '#D7BA7D' },
+					{ token: 'constant.language', foreground: '#569CD6' },
+					{ token: 'number', foreground: '#B5CEA8' },
+					{ token: 'support.function', foreground: '#DCDCAA' },
+					{ token: 'support.function.library', foreground: '#4EC9B0' },
+					{ token: 'support.type', foreground: '#4EC9B0' },
 				],
 				colors: {
-					'editor.background': '#171717',
+					'editor.background': '#141414',
 					'editorLineNumber.foreground': '#7A7A7A',
 					'editorLineNumber.activeForeground': '#BBBBBB',
 					'editorIndentGuide.background': '#1a1a1a',
@@ -473,4 +475,5 @@
 	</script>
 </body>
 </html>
+
 
